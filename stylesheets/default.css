@@ -1,6 +1,7 @@
 body {
   background-color:#BBE5F3;
   font-family: 'Roboto', sans-serif;
+  color:#00557C;
 }
 
 nav {
@@ -41,12 +42,13 @@ footer {
   display:block;
   text-align: center;
   padding-top: 20px;
-
   margin-left: -60px;
+  bottom:0;
 }
 
 footer > ul > li {
   display:inline-block;
   list-style:none;
   padding:10px;
+  text-align:center;
 }

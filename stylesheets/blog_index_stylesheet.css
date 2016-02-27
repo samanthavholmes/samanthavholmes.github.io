@@ -1,0 +1,28 @@
+main > div {
+  display:block;
+}
+
+#title {
+  text-align: center;
+  color: #00557C;
+  font-size: 40px;
+}
+
+.caption {
+  text-align: center;
+}
+
+a {
+  color:#00557C;
+  text-decoration: none;
+}
+
+ul {
+  display:inline-block;
+}
+
+li {
+  display:inline-block;
+  list-style:none;
+  padding-bottom:10px;
+}
