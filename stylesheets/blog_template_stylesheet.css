@@ -1,0 +1,28 @@
+div {
+  display:inline-block;
+}
+
+#title_date {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left:0px;
+  position:absolute;
+  margin-top:80px;
+}
+
+#logo {
+  margin-left: -750px;
+}
+
+div > span {
+  font-size: 20px;
+  text-align: center;
+}
+
+#back {
+  margin-right: 50px;
+}
+
+#top {
+  width:100%;
+}
