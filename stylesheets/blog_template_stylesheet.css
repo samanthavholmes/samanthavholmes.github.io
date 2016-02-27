@@ -19,10 +19,11 @@ div > span {
   text-align: center;
 }
 
-#back {
-  margin-right: 50px;
-}
-
 #top {
   width:100%;
+}
+
+section {
+  margin-left: 100px;
+  margin-right: 100px;
 }
