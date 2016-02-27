@@ -23,7 +23,16 @@ div > span {
   width:100%;
 }
 
-section {
+article {
   margin-left: 100px;
   margin-right: 100px;
 }
+
+#back {
+  float:right;
+}
+
+footer {
+  clear:both;
+}
+
