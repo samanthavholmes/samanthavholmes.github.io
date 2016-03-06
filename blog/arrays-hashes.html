@@ -61,20 +61,19 @@
 <article>
       <p>
         <b> What is an array?</b> Both arrays and hashes are indexed collections. Both can hold any type of object in ruby, including integers, strings, booleans, and other arrays/hashes. These objects are accessible by a key- in an array the key is its index number, which begins at 0. For example, in
-        <ruby>
-        <rt> array = ["cat", "dog", "bird"] </rt></ruby>,
+
+        <code> array = ["cat", "dog", "bird"] </code></ruby>,
         "dog" is in the 1 position.
-        To access it, you would use <ruby> <rt> puts array[1] </rt></ruby> . To create a new, empty array in Ruby, you can use the <ruby> <rt> Array.new </rt></ruby> method or square brackets <ruby> <rt> array = [] </rt></ruby>. There are tons of methods that can be "called upon" an array, such as <ruby> <rt> array.length </rt></ruby>, which will tell the amount of items in an array. Arrays can also be transformed or "concatted" (added) to other arrays.
+        To access it, you would use <code> puts array[1] </code> . To create a new, empty array in Ruby, you can use the <code> Array.new </code> method or square brackets <code> array = [] </code>. There are tons of methods that can be "called upon" an array, such as <code>array.length </code>, which will tell the amount of items in an array. Arrays can also be transformed or "concatted" (added) to other arrays.
       </p>
       <p>
-          <b> What is a hash?</b> In a hash, there are key-value pairs. To access the values, you call upon the key name. For example, in <br>
-        <ruby>
-          <rt> hash = {"Mittens" => "cat", "Skip" => "dog", "Tweety" => "bird"} </rt></ruby>,
-          To access dog, you would use <ruby> <rt> puts hash["Skip"]. </rt></ruby> To create a new, empty hash in Ruby, you can use the <ruby> <rt> Hash.new </rt></ruby> method or  with curly brackets <ruby> <rt> hash = {} </rt></ruby>. Like arrays, there are methods that can be called upon hashes. For example, <ruby> <rt> hash.values </rt></ruby> will return an array of all the values in the hash. A list of all the methods that can be used in arrays and hashes can be found <a id = "here" href= "http://overapi.com/ruby">here</a>.
+          <b> What is a hash?</b> In a hash, there are key-value pairs. To access the values, you call upon the key name. For example, in <br><center>
+          <code> hash = {"Mittens" => "cat", "Skip" => "dog", "Tweety" => "bird"} </code></center>
+          <br>To access dog, you would use <code> puts hash["Skip"]. </code> To create a new, empty hash in Ruby, you can use the <code> Hash.new </code> method or  with curly brackets <code> hash = {} </code>. Like arrays, there are methods that can be called upon hashes. For example, <code> hash.values </code> will return an array of all the values in the hash. A list of all the methods that can be used in arrays and hashes can be found <a id = "here" href= "http://overapi.com/ruby">here</a>.
         </p>
       <p>
           <b>When to use arrays vs hashes</b> There are many similarities between arrays and hashes. They are both collections of objects that can be transformed and "iterated" across. To iterate over an array or a hash means to go through each element one after another. <br><br><center>An example of an iteration is:<br><br>
-          <img src = "imgs/iteration.png" alt= "Iteration" /> <br><br> which will return <br><br> <rt> cat <br> dog <br> bird <br><br></center> This iteration went through <rt> each </rt>element in the array and <rt> puts </rt> (put string) it, or print each element on its own line. When iterating across hashes, two values are passed to the block, where <rt> | animal | </rt> is, to include both the key and the value in the iteration. There are some instances when you would want use a hash instead of an array. Hashes are used for more complex filtering and selection operations. Sometimes, hashes and arrays will be used in conjunction with one another. <br><br><center>For example, if you want to match a product id to an array containing information about the product. <br><br> <img src= "imgs/hasharray.png" alt= "Example of arrays in hash" /> <br><br></center> Basically, an array is used when you want an ordered collection on objects, accessible by index and hashes are used when you want values matched to key ids, accessible through the keys.
+          <img src = "imgs/iteration.png" alt= "Iteration" /> <br><br> which will return <br><br> <code> cat <br> dog <br> bird <br><br></code></center> This iteration went through <code>each </code>element in the array and <code> puts </code>(put string) it, or print each element on its own line. When iterating across hashes, two values are passed to the block, where <code> |animal|</code> is, to include both the key and the value in the iteration. There are some instances when you would want use a hash instead of an array. Hashes are used for more complex filtering and selection operations. Sometimes, hashes and arrays will be used in conjunction with one another. <br><br><center>For example, if you want to match a product id to an array containing information about the product. <br><br> <img src= "imgs/hasharray.png" alt= "Example of arrays in hash" /> <br><br></center> Basically, an array is used when you want an ordered collection on objects, accessible by index and hashes are used when you want values matched to key ids, accessible through the keys.
         </p>
 </article>
 <br>
