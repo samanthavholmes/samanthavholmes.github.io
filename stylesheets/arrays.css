@@ -7,10 +7,10 @@
   margin-left: 120px;
 }
 
-#here {
-  text-decoration: underline;
+code {
+  font-size: 15px;
 }
 
-rt {
-  font-size: 20px;
+#here {
+  text-decoration: underline;
 }
