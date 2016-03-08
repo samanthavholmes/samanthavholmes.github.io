@@ -23,14 +23,13 @@ a {
 
 main > ul {
   position: relative;
-  display:inline-block;
+  display: inline-block;
 }
 
 li {
   display:inline-block;
   list-style:none;
   padding:0;
-  padding-bottom: 10px;
   text-align: center;
 }
 
