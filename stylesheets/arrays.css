@@ -1,16 +1,12 @@
-#logo {
-  margin-top: 30px;
-}
-
-#title_date {
-  margin-top:110px;
-  margin-left: 120px;
-}
-
 code {
   font-size: 15px;
 }
 
 #here {
   text-decoration: underline;
+  color: white;
+}
+
+.class {
+  text-align: center;
 }
