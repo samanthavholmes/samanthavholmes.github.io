@@ -1,7 +1,12 @@
+html > body {
+  height: 100%;
+}
+
 body {
-  background-color:#BBE5F3;
+  background-color:#cc99ff;
   font-family: 'Roboto', sans-serif;
   color:#00557C;
+
 }
 
 main {
@@ -11,6 +16,7 @@ main {
   padding-top: 5px;
   color: white;
   padding-bottom: 10px;
+  min-height: 95vh;
 }
 
 nav {
@@ -54,7 +60,7 @@ a:hover {
 }
 
 header {
-  background-color: #BBE5F3;
+  background-color: #cc99ff;;
   padding-bottom: 10px;
   position: absolute;
   top: 0;
@@ -86,7 +92,7 @@ footer > ul {
   left: 0;
   right:0;
   margin: 0 auto;
-  bottom: 0;
+  margin-bottom: 0;
 }
 
 footer > ul > li {
