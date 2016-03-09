@@ -57,11 +57,11 @@ nav > ul> li > a {
 
 
 a {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 a:hover {
-  color: white;
+  color:white;
 }
 
 header {
