@@ -55,12 +55,17 @@ nav > ul> li > a {
   margin: 0 auto;
 }
 
-a:hover {
+
+a {
   font-weight:bold;
 }
 
+a:hover {
+  color: white;
+}
+
 header {
-  background-color: #cc99ff;;
+  background-color: #cc99ff;
   padding-bottom: 10px;
   position: absolute;
   top: 0;
