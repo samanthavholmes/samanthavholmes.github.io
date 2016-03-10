@@ -1,4 +1,4 @@
-![My Website](samanthavholmes.github.io)
+[My Website](samanthavholmes.github.io)
 
 1. What did you learn about CSS padding, borders, and margin by doing this challenge?
   * I learned that padding is the area between the content and the border, the border is the edge of the element, and the margin is the area between the border and the walls of the document, or another element. I used background colors when testing my css to get a clear picture of how these attributes affect an element, and learned that padding also increases the size of the element.
