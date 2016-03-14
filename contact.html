@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <link type="text/css" rel="stylesheet" href="stylesheets/default.css"/>
+  <link type="text/css" rel="stylesheet" href="stylesheets/contact.css"/>
   <link type="text/css" rel="stylesheet" href="stylesheets/index_stylesheet.css"/>
   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-  <title>Welcome to my website!</title>
+  <title>Contact Info</title>
 </head>
-
 <body>
 
 <header>
@@ -41,16 +42,35 @@
 
 </header>
 
-
 <main>
-  <p id="title">Samantha V Holmes
-<br><br>
-  <img id = "me" src="imgs/samantha.png" alt="Profile Picture"  />
-  <p class="description">Aspiring Web Developer</p>
-  <p class="description">Currently a student at DEV Bootcamp, <br/> ready to create amazing things!</p>
+
+  <form class="form" action="MAILTO:samanthavholmes@gmail.com" method= "post" enctype = "text/plain">
+    <p id="title">Contact me!</p><br>
+
+    <div>
+      Name<br><input type="text" name= "Name" placeholder="Your name" />
+
+    </div>
+
+    <div>
+      <br>E-mail<br><input type="email" name= "E-mail" placeholder="Your email address" />
+    </div>
+
+   <div>
+      <br>Message<br><textarea name= "Message" name ="Message" placeholder="Your message" /></textarea>
+    </div>
+
+    <div>
+      <a href= "mailto:samanthavholmes@gmail.com"><input type="submit" value="Send" /></a>
+    </div>
+
+</form>
+  <br><br><p class="description">Check out my social media links!</p>
 </main>
 
 
+
+</main>
 <footer>
   <ul>
       <li>
@@ -67,7 +87,5 @@
     </ul>
 
 </footer>
-
 </body>
-
 </html>
