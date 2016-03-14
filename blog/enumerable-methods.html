@@ -64,6 +64,8 @@
 
        <h2> What is Enumerable #map and #collect? </h2> Map and collect are two enumerable methods that basically implement the same thing. They take each item in the collection and perform a block of code on them. <br><br>Here is an example of how #map works: <br><br> <img src= "imgs/mapex.png" alt= "map example" /> <br><br> which will return <code> [2,4,6] </code><br><br> As you can see, it returns a new array with the results of the running block once for each element. This does not alter the original array, however. If you wanted to make the array be changed permanently, you would add a bang(!) operator after map to make the method destructive. <br><br> Here is another example, this time using #collect: <br><br> <img src= "imgs/burgers.png" alt= "collect example" /> <br><br> which will return <code> ["Have a tasty Quarter Pounder!", "Have a tasty Big Mac!", "Have a tasty Whopper!] </code><br><br>
 
+       <h2> What are placeholders? </h2> In the code <code> array.map {|i| i*2} </code>, i is simply a placeholder- anything can be used there. It can be helpful to be descriptive when picking placeholder names. This is why we used burger as the placeholder in <code> burgers.collect {|burger| "Have a tasty #{burger}!"}</code>. It's also important to mention #map and #collect can be called against hashes, as well. In this case, two placeholders are used: one for the key and one for the value. <br><br> Here is an example of the use of #map on a hash: <br><br> <img src= "imgs/hashmap.png" alt= "hash map example" /> <br><br> which will return <code> [2, 3, 4] </code><br><br>
+
 
 <br><br>
 <div id="back"><a href="http://samanthavholmes.github.io/blog/blog-index.html">Back to other posts </a></div>
