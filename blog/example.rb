@@ -1,8 +1,10 @@
+class Calc
+  def add(x,y)
+    @x=x
+    @y=y
+    x+y
+  end
+end
 
-
-
-
-
-hash = {"a" => 1, "b" => 2, "c" => 3}
-p hash.map {|key,value| key + "a", value + 1}
-
+p = Calc.new
+p p.add(4,5)
