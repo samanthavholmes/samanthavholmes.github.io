@@ -3,12 +3,6 @@
 
 
 
-
-
-
-
-burgers = ["Quarter Pounder", "Big Mac", "Whopper"]
-p burgers.collect {|burger| "Have a tasty #{burger}!"}
-
-p burgers
+hash = {"a" => 1, "b" => 2, "c" => 3}
+p hash.map {|key,value| key + "a", value + 1}
 
