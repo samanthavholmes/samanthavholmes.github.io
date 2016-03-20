@@ -49,7 +49,7 @@
 
 <main>
 
-<div class = "top>"
+<div class = "top">
   <p id="logo">
   <img src="imgs/class.png" alt="Ruby Class"/>
   </p>
@@ -62,16 +62,13 @@
 
         <h2> What is a class?</h2> In Ruby, a class gives the guidelines for how an object is created. When a class is created for an object, their features are defined, and new versions ("instances") of them can be created. There are built-in classes, such as "Integer" and "String", but the real power comes with the ability to create your own classes. You can crate methods inside of your classes, that interact with each other through use of instance variables.
 
-       <h2> How do you create a class?</h2> Classes are defined using "class" followed by the class name, which typically starts with a capital letter. There is usually an initialize method, which tells Ruby how to behave when a new instance of a class is made. <br>
-       <p id ="center">Here is an example of how a class and an initialize method inside the class is made: <br><br> <img src="imgs/initialize.png" alt="Creating a Class" /></p> Instance variables are preceded by the "@" sign. Now, when new methods are created inside the class <code> "Animal", @sound, @color, </code> and <code> @number_of_legs </code> can be used anywhere within the class.
+       <h2> How do you create a class?</h2> Classes are defined using "class" followed by the class name, which typically starts with a capital letter. There is usually an initialize method, which tells Ruby how to behave when a new instance of a class is made. <br> <p class ="center">Here is an example of how a class and an initialize method inside the class is made: <br><br> <img src="imgs/initialize.png" alt="Creating a Class" /></p> Instance variables are preceded by the "@" sign. Now, when new methods are created inside the class <code> "Animal", @sound, @color, </code> and <code> @number_of_legs </code> can be used anywhere within the class.
 
-       <h2>How is an instance of a class created? </h2> An instance of a class is created using <code> ClassName.new, </code> and includes the number of arguments required in the initialize method. <br> <p id = "center"> For example, in our class, &nbsp; <code>  Animal, </code> 3 arguments must be given when creating a new instance (sound, color, and number_of_legs). <br><br> <img src="imgs/pig.png" alt="Creating an instance" /></p> However, we haven't defined a way to interact with the attributes (sound, color, and number_of_legs) of this new instance, <code> "pig". </code> There are different ways of doing this, but the most efficient way is through use of "attr accessors".
+       <h2>How is an instance of a class created? </h2> An instance of a class is created using <code> ClassName.new, </code> and includes the number of arguments required in the initialize method. <br> <p class = "center"> For example, in our class, &nbsp; <code>  Animal, </code> 3 arguments must be given when creating a new instance (sound, color, and number_of_legs). <br><br> <img src="imgs/pig.png" alt="Creating an instance" /></p> However, we haven't defined a way to interact with the attributes (sound, color, and number_of_legs) of this new instance, <code> "pig". </code> There are different ways of doing this, but the most efficient way is through use of "attr accessors".
 
-       <h2>What are attr accessors?</h2> Attr accessors allow you to read/write to the attributes of an instance. There are three types of attr accessors, <code> attr_reader </code> allows you just read the attribute, <code> attr_writer </code> allows you to just overwrite the attribute, and <code> attr_accessor </code> lets you both read and overwrite the attribute. <br>
-       <p id ="center">Here is an example of how attr accessors would be used in our class <code> Animal: </code> <br><br> <img src="imgs/attr.png" alt="Attr accessors" /></p> Now, we can read a new Animal's sound and read or overwrite its color and number of legs. For example, &nbsp; <code> pig.sound </code> will return <code> "oink". </code> Let's say we want to make this pig black instead of pink. To overwrite its color we would input <code> pig.color = "black". </code> Now, &nbsp;<code>pig.color</code> will return <code> "black". </code>
+       <h2>What are attr accessors?</h2> Attr accessors allow you to read/write to the attributes of an instance. There are three types of attr accessors, <code> attr_reader </code> lets you just read the attribute, <code> attr_writer </code> lets you just overwrite the attribute, and <code> attr_accessor </code> allows you to both read and overwrite the attribute. <br> <p class ="center">Here is an example of how attr accessors would be used in our class <code> Animal: </code> <br><br> <img src="imgs/attr.png" alt="Attr accessors" /></p> Now, we can read a new Animal's sound and read or overwrite its color and number of legs. For example, &nbsp; <code> pig.sound </code> will return <code> "oink". </code> Let's say we want to make this pig black instead of pink. To overwrite its color we would input <code> pig.color = "black". </code> Now, &nbsp;<code>pig.color</code> will return <code> "black". </code>
 
-       <h2>Creating Instance Methods </h2> To solidify your understanding of classes, let's create an instance method. Instance methods can only be called on instances of a class. <br>
-       <p id ="center">Here is an example of an instance method called &nbsp; <code>"greet":</code> <br><br> <img src="imgs/greet.png" alt="Creating an instance method" /></p> Now, <code> pig.greet, </code> will return <code> "Oink, I'm black and I have 4 legs." </code>
+       <h2>Creating Instance Methods </h2> To solidify your understanding of classes, let's create an instance method. Instance methods can only be called on instances of a class. <br> <p class ="center">Here is an example of an instance method called &nbsp; <code>"greet":</code> <br><br> <img src="imgs/greet.png" alt="Creating an instance method" /></p> Now, <code> pig.greet, </code> will return <code> "Oink, I'm black and I have 4 legs." </code>
 
 <br><br>
 <div id="back"><a href="http://samanthavholmes.github.io/blog/blog-index.html">Back to other posts </a></div>
@@ -99,28 +96,4 @@
 
 </body>
 
-<!--
-1. How was it to wireframe and create an HTML page with a pair?
-  - It was great to have another person to come up with design ideas together.
-  I struggle with design but I feel like through my practice and brainstorming with others,
-  I am getting better at being more creative with my work. We, of course, have similar basic
-  elements of html such as <!DOCTYPE html> and the <head> and <body> tags. A lot of the HTML
-  I did on my own because I wanted to add tables for my header and footer, but I hope to find
-  a better way to add a navigation bar soon.
-2. Did you find wireframing to be helpful to your development process?
-  - Absolutely. I do not think that I could just dive into the coding without having a framework
-  of what I am trying to produce. I think I will be using wireframing for every project I work on.
-3. What did you and your pair decide made a good wireframe?
-  - We decided a good wireframe should include all the elements you will want to see in the final product.
-  For example, I mentioned that I'm going to be adding the navigation bar at the top of the page because
-  I want my blog to be an extension of my website, where users can navigate back to the other pages
-  after reading the post.
-4. What new semantic elements did you learn about (if any)?
-  - I learned about <section>, <header>, and <footer>. I definitely need to practice more with
-  these semantic elements but I feel like they can be really useful.
-## I also wanted to mention that a lot of the styling I wanted to do, I haven't learned yet.
-For example, I wanted to display the post title and date to the right of the image, rather than under.
-I think next week's lessons on CSS will be extremely helpful in this aspect.
-MY WIREFRAME: https://gomockingbird.com/projects/evpojxe/XOPvyG
--->
 </html>

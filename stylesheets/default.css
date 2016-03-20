@@ -3,13 +3,13 @@ html > body {
 }
 
 body {
-  background-color:#cc99ff;
+  background-color:#007fbf;
   font-family: 'Roboto', sans-serif;
-  color:#00557C;
+  color:#000c18;
 }
 
 main {
-  background-image: url("../imgs/purple.jpeg");
+  background-image: url("../imgs/blue-gradient.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-top: 5px;
@@ -36,7 +36,7 @@ nav > ul {
 nav > ul > li {
   display:inline;
   list-style:none;
-  border-right: 1px solid #330066;
+  border-right: 1px solid #000c18;
 }
 
 nav > ul > li:last-child {
@@ -46,7 +46,7 @@ nav > ul > li:last-child {
 nav > ul> li > a {
   text-decoration:none;
   font-size:20px;
-  color: #330066;
+  color: #000c18;
   text-align:center;
   padding:10px;
   left: 0;
@@ -63,7 +63,7 @@ a:hover {
 }
 
 header {
-  background-color: #cc99ff;
+  background-color: #007fbf;
   padding-bottom: 10px;
   position: absolute;
   top: 0;
