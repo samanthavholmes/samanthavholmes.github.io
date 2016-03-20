@@ -5,6 +5,26 @@
 
 
 
+      array = ["cat", "dog", "bird"]
+      array.each do |animal|
+        puts animal
+      end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     class Animal
 
       def initialize (sound, color, number_of_legs)
