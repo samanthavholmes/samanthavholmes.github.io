@@ -39,6 +39,16 @@ li {
   margin-top: -20px;
 }
 
-#bottom {
-  clear: both;
+#top img {
+  border-radius: 2%;
+  margin: 2px;
 }
+
+
+#bottom img {
+  clear: both;
+  border-radius: 2%;
+  margin: 2px;
+}
+
+
