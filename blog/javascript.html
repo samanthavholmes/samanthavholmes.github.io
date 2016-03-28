@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="../stylesheets/default.css"/>
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog.css"/>
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog_template_stylesheet.css"/>
+  <link type="text/css" rel="stylesheet" href="../stylesheets/enumerable_stylesheet.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <title>Loops: Ruby vs. JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+
+
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li>
+        <a href="http://samanthavholmes.github.io/index.html">Home</a>
+      </li>
+
+      <li>
+        <a href="http://samanthavholmes.github.io/about_me.html">About Me</a>
+      </li>
+
+      <li>
+        <a href="#">Resume</a>
+      </li>
+
+      <li>
+        <a href="http://samanthavholmes.github.io/projects/index.html">Projects</a>
+      </li>
+
+      <li>
+        <a href="http://samanthavholmes.github.io/blog/blog-index.html">Technical Blog</a>
+      </li>
+
+      <li>
+        <a href="http://samanthavholmes.github.io/contact.html">Contact Info</a>
+      </li>
+    </ul>
+  </nav>
+
+
+</header>
+
+
+<main>
+
+<div class = "top>"
+  <p id="logo">
+  <img src="imgs/versus.png" alt="Ruby vs. JavaScript"/>
+  </p>
+<p id = "title_date">Loops: Ruby vs. JavaScript<br><span>March 28, 2016</span>
+  </p>
+</div>
+
+
+<article>
+
+        <h2> What is a loop?</h2> Loops tell a programming language to repeat a certain action a set number of time or until a certain condition is met.Looping is extremely common and essential in programming in order to keep your code DRY. There are differences in how loops are created in Ruby vs. in JavaScript.
+
+       <h2> How do you loop in Ruby?</h2> There are many different ways to create loops in Ruby. <br> <p class ="center">For example, the "times" loop: <br><br> <img src="imgs/times.png" alt="Example git log" /></p> This loop will print <code>"cat"</code> to the screen 5 times. Another loop is the "each" loop, which is useful when working with hashes or arrays. <br> <p class ="center">Here is an example of an "each" loop: <br><br> <img src="imgs/each.png" alt="Example git log" /></p> This tells Ruby to go through each "name" (any placeholder can be placed between the pipes) in the array and print it to the screen. There are many more built-in functions that act as loops that you can find in the RubyDocs. Other ways to start a loop is through use of keywords, such as "while", "until", and "for". <br> <p class ="center">Here is an example of a "while" loop: <br><br> <img src="imgs/while.png" alt="Example git log" /></p> Here, <code> i </code> is being used as a counter in order to avoid an infinite loop. This block of code is telling Ruby to print <code>"I love Ruby!" </code> WHILE the counter is less than 5 (or UNTIL i = 5) and then adds 1 to the counter after each iteration.
+
+       <h2> How do you loop in JavaScript?</h2> JavaScript is a bit different than Ruby in how it loops. There are some built-in methods, such as "forEach" that can be used in a similar way Ruby uses "each" loops. The most common types of loops in JavaScript, however, are "while" and "for" loops. They essentially have the same function, but "for" loops are shorter, and can be more efficient. They are similar to Ruby in how they function, but the syntax is a bit different. <br> <p class ="center">Here is an example of a "for" loop in JavaScript: <br><br> <img src="imgs/forjava.png" alt="Example git log" /></p> This can be more difficult than Ruby to understand at first glance, but let's break it down so we can see what's happening. After the keyword,<code> for, </code> there are parenthesis followed by 3 parameters- separated by semicolons. The first parameter is usually for creation of a variable (often, a counter- as in this example). The second parameter tells JavaScript how long to run the loop (in this case, as long as the counter is less than 3). Finally, the last parameter tells JavaScript what changes after each iteration (in this case the counter increases by 1 each time). Next, inside the curly brackets are what you want to happen in each iteration (in this case, print to the screen "I love JavaScript!"). As you can see, loops in Ruby and JavaScript are very similar in their functionality, but have very different syntaxes. Both are just as easy to work with after some practice!
+
+
+<br><br>
+<div id="back"><a href="http://samanthavholmes.github.io/blog/blog-index.html">Back to other posts </a></div>
+</article>
+
+</main>
+
+<footer>
+
+  <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/samantha-holmes-9162a4114?trk=hp-identity-name"><img src="imgs/linked.png" alt="LinkedIn Logo"></a>
+      </li>
+
+      <li>
+        <a href="https://github.com/samanthavholmes"><img src="imgs/github.png" alt="GitHub Logo"></a>
+      </li>
+
+      <li>
+        <a href="https://twitter.com/samholmesdev"><img src="imgs/Twitter.png" alt="Twitter Logo"></a>
+      </li>
+    </ul>
+
+</footer>
+
+</body>
+
+</html>
