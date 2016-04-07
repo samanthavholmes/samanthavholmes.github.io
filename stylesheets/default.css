@@ -6,6 +6,8 @@ body {
   background-color:#007fbf;
   font-family: 'Roboto', sans-serif;
   color:#000c18;
+    margin-left: 0;
+  margin-right: 0;
 }
 
 main {
@@ -16,6 +18,7 @@ main {
   color: white;
   padding-bottom: 10px;
   min-height: 90vh;
+
 }
 
 nav {
