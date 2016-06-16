@@ -1,73 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <link type="text/css" rel="stylesheet" href="stylesheets/default.css"/>
-  <link type="text/css" rel="stylesheet" href="stylesheets/index_stylesheet.css"/>
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-  <title>Welcome to my website!</title>
-</head>
+---
+layout: default
+---
 
-<body>
+<div class="home">
 
-<header>
+  <h1>Posts</h1>
 
-  <nav>
-    <ul>
+  <ul class="posts">
+    {% for post in site.posts %}
       <li>
-        <a href="http://samanthavholmes.github.io/index.html">Home</a>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
+    {% endfor %}
+  </ul>
 
-      <li>
-        <a href="http://samanthavholmes.github.io/about_me.html">About Me</a>
-      </li>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-      <li>
-        <a href="#">Resume</a>
-      </li>
-
-      <li>
-        <a href="http://samanthavholmes.github.io/projects/index.html">Projects</a>
-      </li>
-
-      <li>
-        <a href="http://samanthavholmes.github.io/blog/blog-index.html">Technical Blog</a>
-      </li>
-
-      <li>
-        <a href="http://samanthavholmes.github.io/contact.html">Contact Info</a>
-      </li>
-    </ul>
-  </nav>
-
-</header>
-
-
-<main>
-  <p id="title">Samantha V Holmes
-<br><br>
-  <img id = "me" src="imgs/samantha.png" alt="Profile Picture"  /><br>
-  <p class="description1">Aspiring Web Developer</p>
-  <p class="description">Currently a student at DEV Bootcamp, <br/> ready to create amazing things!</p>
-</main>
-
-<footer>
-  <ul>
-      <li>
-        <a  href="https://www.linkedin.com/in/samantha-holmes-9162a4114?trk=hp-identity-name"><img src="blog/imgs/linked.png" alt="LinkedIn Logo"></a>
-      </li>
-
-      <li id = "social">
-        <a href="https://github.com/samanthavholmes"><img src="blog/imgs/github.png" alt="GitHub Logo"></a>
-      </li>
-
-      <li>
-        <a href="https://twitter.com/samholmesdev"><img src="blog/imgs/Twitter.png" alt="Twitter Logo"></a>
-      </li>
-    </ul>
-
-</footer>
-
-</body>
-
-
-</html>
+</div>
