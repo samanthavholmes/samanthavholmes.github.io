@@ -42,6 +42,10 @@ a.active {
     outline: 0;
 }
 
+.white {
+    color: white;
+}
+
 a {
     color: #{{ site.data.template.color.primary }};
 }
@@ -757,8 +761,8 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
+    color: black;
+    background-color: white;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
