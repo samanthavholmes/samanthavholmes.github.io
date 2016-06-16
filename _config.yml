@@ -1,10 +1,9 @@
 url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
 
 # Site settings
 title: Samantha Holmes
 email: samanthavholmes@gmail.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "My personal website"
 
 
 # Team names, titles and social links
@@ -24,8 +23,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 202 107th st
+  - line: New York, NY 10025
 
 # Build settings
 markdown: kramdown

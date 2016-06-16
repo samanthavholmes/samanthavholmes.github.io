@@ -10,6 +10,13 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+.col-center-block {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .text-muted {
     #{{ site.data.template.color.muted }};
 }
