@@ -1,0 +1,3 @@
+[submodule "2048-clone"]
+	path = 2048-clone
+	url = https://github.com/samanthavholmes/2048-clone.git
